@@ -1,0 +1,77 @@
+body{
+    background: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px ;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: aqua;
+    text-shadow: 5px 5px rgba(18, 189, 189, 0.527);
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+}
+P{
+    color: aqua;
+    font-size: 15px;
+
+}
+p span{
+    display: inline;
+    transition: 0.3s;
+}
+p span:hover{
+    transform: scale(1.5);
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+    border: orange;
+}
+.Igraci{
+    position: relative;
+    bottom: 10px;
+    left: 5%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+}
+.Shop{
+    position: relative;
+    bottom: 10px;
+    left: 75%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+}
+.Igraci:hover{
+    position: relative;
+    bottom: 10px;
+    left: 5%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: blue;
+    color: aqua;
+    text-decoration: none;
+}
+.Shop:hover{
+    position: relative;
+    bottom: 10px;
+    left: 75%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: blue;
+    color: aqua;
+    text-decoration: none;
+}

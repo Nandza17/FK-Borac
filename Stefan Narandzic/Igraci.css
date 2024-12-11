@@ -1,0 +1,95 @@
+body{
+    background: url(pozadina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 0px ;
+}
+h1{
+    margin: 250px 100px 200px 100px ;
+    text-align: center;
+    color: aqua;
+    text-shadow: 2px 2px aquamarine;
+    font-size: 60px;
+    
+}
+.Istorija{
+    position: relative;
+    bottom: 30px;
+    left: 75%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+    
+}
+.Pocetna{
+    position: relative;
+    bottom: 30px;
+    left: 5%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+    
+}
+.Istorija:hover{
+    position: relative;
+    bottom: 30px;
+    left: 75%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    border: solid 5px rgb(224, 240, 8) ;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+    
+}
+.Pocetna:hover{
+    position: relative;
+    bottom: 30px;
+    left: 5%;
+    padding: 10px 20px;
+    font-size: larger;
+    text-align: center;
+    border: solid 5px rgb(224, 240, 8) ;
+    background-color: aqua;
+    color: blue;
+    text-decoration: none;
+    
+}
+table{
+    border: 4px solid aqua;
+    margin: 5% 15%;
+    
+}
+th{
+    border: 3px solid rgb(255, 0, 191);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    background-color: rgb(29, 165, 243);
+}
+th:hover{
+    border: 3px solid rgb(247, 2, 2);
+    color: rgb(208, 26, 245);
+    font-size: large;
+    text-align: center;
+}
+td{
+    border: 2px solid rgb(0, 26, 255);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    background-color: rgb(30, 189, 238);
+}
+td:hover{
+    border: 2px solid rgb(247, 93, 5);
+    color: rgb(198, 13, 245);
+    font-size: large;
+    text-align: center;
+}
